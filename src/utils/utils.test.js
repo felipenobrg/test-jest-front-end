@@ -4,5 +4,5 @@ test('Deve retorna o valor do saldo atualizado com o rendimento', () => {
     const saldo = 100;
 
     const novoSaldo = calculaRendimento(saldo)
-    expect(novoSaldo).toBe(100.5)
+    expect(novoSaldo).toBe(100.5);
 })

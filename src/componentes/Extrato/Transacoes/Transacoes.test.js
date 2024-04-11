@@ -19,6 +19,7 @@ test('Deve renderizar o mesmo compomente com props atualizadas', () => {
         valor: 50
     }
 
+    rerender(<Transacoes estilos={estilos} transacao={novaTransacao} />)
     const novoTipoTransacao = screen.getByTestId('tipoTransacao')
     const novoTransacao = screen.getByTestId('valorTransacao')
 
